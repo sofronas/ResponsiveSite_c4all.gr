@@ -1,0 +1,217 @@
+/*
+    Author: Sofronas Konstantinos Sotirios
+    Email: dit16167@uop.gr
+    AM:2022201600167
+    Template: Sofron C4all.gr
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding-top: 0px;
+    /* background: url(../images/bee.jpg); */
+    background-color: #3366AA !important;
+    overflow-x: hidden;
+	/*background-color: black !important;*/
+}
+
+.container,.container-fluid{
+    /*border: 1px solid red;*/
+}
+
+
+.sofronSpan{
+    padding-right: 10px;
+}
+
+.header_image{
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+	width:100%; 
+	height: auto;
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+.body1{
+    background-color: white;
+}
+
+.sfnavbar{
+	width:100%;
+	height:auto;
+}
+
+.safternav, .sbeforefoot ,.sbeforenav {
+    border-bottom: 4px solid #007abe;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.49);
+    filter: drop-shadow(0 0 30px #333);
+}
+
+
+.d-flex{
+    background-color: white;
+}
+
+.bg-sofron{
+    background-color: #F0F0F0;
+}
+
+#wrapper a:hover{
+    background-color: #018CCD ;
+    color: white ;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coverImage{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#coverImage:hover{
+    opacity: 0.6;
+}
+
+.caption{
+    text-align: center;
+}
+
+.span_arrow{
+    /*list-style-image: url('../images/orange-arrow.gif');*/
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.content_book{
+    list-style: none;
+    padding-bottom: 1px;
+    list-style-position: outside;
+}
+
+.sofron_line{
+    width: 100%;
+    line-height: 5px;
+    padding-bottom: 22px;
+    background-color: #FFAF00;
+    border: transparent;
+}
+
+.MsoNormal{
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+.ebook{
+    list-style-image: url('../images/ebook.png');
+    list-style-position: outside;
+}
+
+.ebook a:hover, .ntsel:hover {
+    color: black !important;
+    background-color: #F0F0F0 !important;
+    border: 0px;
+    text-decoration: none;
+}
+
+.noshow{
+    display: none;
+}
+
+.text_area{
+    width: 100%;
+}
+
+.c{
+    margin-bottom: 5px;
+}
+
+.imagepreview{
+    width: 75%;
+}
+
+footer{
+    background-color: white;
+}
+
+
+/* Queries */
+/* Smartphones */
+@media only screen and (max-width: 600px) {
+    #page-content-wrapper{
+        width: auto;
+        padding-right: 15px;
+    }
+    #nav{
+        margin-right: 16px;
+    }
+    #sidebar-wrapper{
+        display: none;
+    }
+    #menu-toggle{
+        width: auto;
+        margin-right: 15px;
+    }
+    .safternav{
+        width: auto;
+        margin-right: 15px;
+    }
+    .space{
+        padding-bottom: 5px;
+    }
+}
+
+/* Tablets */
+@media only screen and (max-width: 992px) {
+    #sidebar-wrapper{
+        display: none;
+    }
+    #sidebar-wrapper{
+        display: none;
+    }
+    #menu-toggle{
+        width: auto;
+        padding-left: 15px;
+    }
+
+}
+
+/* Laptop/Desktop */
+@media only screen and (min-width: 992px) {
+	.msofronas{
+        display: none;
+    }
+    .space{
+        padding-bottom: 10px;
+    }
+    .raftersidebar{
+        border-right: 0px solid #007abe;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.49);
+    }
+}
+
+
+/*
+    // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+*/

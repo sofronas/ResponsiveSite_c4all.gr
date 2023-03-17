@@ -1,0 +1,279 @@
+<!--
+    Author: Sofronas Konstantinos Sotirios
+    Email: dit16167@uop.gr
+	AM:2022201600167
+    Template: Sofron C4all.gr
+ -->
+<!DOCTYPE html>
+<html lang="el">
+<head>
+	<!-- Meta tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="Content-Language" content="el">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="C, Βιβλίο, Γλώσσα Προγραμματισμού, από τη θεωρία στην εφαρμογή, Λυμένες Ασκήσεις, Συνοπτική Θεωρία, Γιώργος Τσελίκης, Νίκος Τσελίκας, Προγραμματισμός, Programming, Τελεστές, Μεταβλητές, Έλεγχος Προγράμματος, Βρόχοι Επανάληψης, Πίνακες, Δείκτες, Χαρακτήρες, Αλφαριθμητικά, Συναρτήσεις, Αναζήτηση, Ταξινόμηση, Δομές, Ενώσεις, Διαχείρηση Μνήμης, Δομές Δεδομένων, Αρχεία, Tselikis, Tselikas ">
+	<meta name="keywords" content="C, Βιβλίο, Γλώσσα Προγραμματισμού, από τη θεωρία στην εφαρμογή, Λυμένες Ασκήσεις, Συνοπτική Θεωρία, Γιώργος Τσελίκης, Νίκος Τσελίκας, Προγραμματισμός, Programming, Τελεστές, Μεταβλητές, Έλεγχος Προγράμματος, Βρόχοι Επανάληψης, Πίνακες, Δείκτες, Χαρακτήρες, Αλφαριθμητικά, Συναρτήσεις, Αναζήτηση, Ταξινόμηση, Δομές, Ενώσεις, Διαχείρηση Μνήμης, Δομές Δεδομένων, Αρχεία, Tselikis, Tselikas ">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="images/favicon.ico"/>
+
+	<title>C : Από τη Θεωρία στην Εφαρμογή - Γ. Σ. Τσελίκης - Ν. Δ. Τσελίκας</title>
+
+	<!--Bootstrap Css-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+
+	<!-- Custom Css -->
+	<link rel="stylesheet" href="css/sofronas_css.css">
+	<link rel="stylesheet" href="css/simple-sidebar.css">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sofron_css.css">
+  
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/all.css">
+
+	<!-- JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+
+
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/gotoparrow.js"></script>
+
+</head>
+<body>
+	<!-- Header -->
+	<div class="container">
+		<div class="topnav">
+			<div class="row">
+				<img class="header_image" id="header_image_2" src="images/title_bg_1024x100.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- Body -->
+	<div class="container">
+		<div class="sbeforenav"></div>
+
+		<div class="d-flex" id="wrapper">
+
+	    	<!-- Sidebar -->
+	    	<div class="bg-sofron" id="sidebar-wrapper">
+	      		<div class="list-group list-group-flush">
+	        		<a href="index.html" class="list-group-item list-group-item-action">
+	        			<span class="sofronSpan"><i class="fas fa-home"></i></span>Αρχική σελίδα
+	       			</a>
+	        		<a href="authors.html" class="list-group-item list-group-item-action">
+	        			<span class="sofronSpan"><i class="fas fa-address-card"></i></span>Οι συγγραφείς
+	        		</a>
+	        		<a href="ToC.html" class="list-group-item list-group-item-action">
+	        			<span class="sofronSpan"><i class="fas fa-book"></i></span>Περιεχόμενα βιβλίου
+	       	 		</a>
+	        		<a href="code.html" class="list-group-item list-group-item-action">
+	        			<span class="sofronSpan"><i class="fas fa-code"></i></span>Κώδικας Ασκήσεων
+	        		</a>
+	        		<a href="examples.html" class="list-group-item list-group-item-action">
+	        			<span class="sofronSpan"><i class="fas fa-edit"></i></span>Ενδεικτικές Ασκήσεις
+	        		</a>
+	        		<a href="" class="list-group-item list-group-item-action">
+	        			<span class="sofronSpan"><i class="fas fa-at"></i></span>Επικοινωνία
+	        		</a>
+	      		</div> <!-- end of list group -->
+	    	</div> <!-- end of sidebar -->
+
+	    	<div class="raftersidebar"></div>
+
+	    	<!-- Page Content -->
+	   		<div id="page-content-wrapper">
+
+	      		<nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light border-bottom" >
+
+	        		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	          			<span class="navbar-toggler-icon"></span>
+	        		</button>
+
+	        		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	          			<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+	          				<li class="nav-item msofronas">
+		          				<a href="index.html" class="list-group-item list-group-item-action bg-light">
+			        				<span class="sofronSpan"><i class="fas fa-home"></i></span>Αρχική σελίδα
+			        			</a>
+		    				</li>
+		    				<li class="nav-item msofronas">
+		        				<a href="authors.html" class="list-group-item list-group-item-action bg-light">
+		        					<span class="sofronSpan"><i class="fas fa-address-card"></i></span>Οι συγγραφείς
+		        				</a>
+		        			</li>
+		        			<li class="nav-item msofronas">
+		        				<a href="ToC.html" class="list-group-item list-group-item-action bg-light">
+		        					<span class="sofronSpan"><i class="fas fa-book"></i></span>Περιεχόμενα βιβλίου
+		        				</a>
+		        			</li>
+		        			<li class="nav-item msofronas">
+		        				<a href="code.html" class="list-group-item list-group-item-action bg-light">
+		        					<span class="sofronSpan"><i class="fas fa-code"></i></span>Κώδικας Ασκήσεων
+		        				</a>
+		        			</li>
+		        			<li class="nav-item msofronas">
+		        				<a href="examples.html" class="list-group-item list-group-item-action bg-light">
+		        					<span class="sofronSpan"><i class="fas fa-edit"></i></span>Ενδεικτικές Ασκήσεις
+		        				</a>
+		        			</li>
+		        			<li class="nav-item msofronas">
+		        				<a href="" class="list-group-item list-group-item-action bg-light">
+		        					<span class="sofronSpan"><i class="fas fa-at"></i></span>Επικοινωνία
+		        				</a>
+		        			</li>
+	          				<li class="nav-item">
+	          					<a class="nav-link" href="en/contact.html">
+	          						<img src="images/flag_en.png">
+	          					</a>
+	          				</li>
+	          				<li class="nav-item active">
+	          					<a class="nav-link" href="index.html">
+	          						<img src="images/flag_gr.jpg">
+	          					</a>
+	          				</li>
+	          			</ul>
+	        		</div>
+	      		</nav>
+	      
+	      		<!-- Shadow -->
+	      		<div class="safternav"></div>
+	      		<div class="space"></div>
+
+	      		<div class="container" id="menu-toggle">
+	      			<div class="container"> 
+			   			<div class="row"> 
+			      			<div class="col-md-6">
+			      				<a href="#" id="coverImageToLoad">
+			      					<img id="coverImage" border="0" src="images/cover.jpg" width="226" height="320" class="center" longdesc="C: Από τη Θεωρία στην Εφαρμογή" alt="Κάντε &quot;κλικ&quot; για να δείτε σε μεγαλύτερο μέγεθος το εξώφυλλο">
+			      				</a>
+
+			      				<!-- Show Image -->
+								<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								  <div class="modal-dialog">
+								    <div class="modal-content">  
+								    	<div class="modal-header">
+								        	<h4 class="modal-title">Εξώφυλλο σε Μεγέθυνση</h4>
+								        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+								      	</div>            
+								      	<div class="modal-body caption">
+								        	<img src="images/cover.jpg" class="imagepreview">
+								        	<div class="caption">
+								        		<p>C: Από τη Θεωρία στην Εφαρμογή</p>
+								        	</div>
+								      	</div>
+								    </div>
+								  </div>
+								</div>
+								<div class="container MsoNormal">
+									<div class="col-12">
+										<p align="justify">
+											<font color="blue">
+										  		<b>Τίτλος:</b> C: από τη Θεωρία στην Εφαρμογή <br>
+										  		<i>(Γ' Έκδοση, 2016)</i><br>
+												<b>Συγγραφείς:</b> Γ. Σ. Τσελίκης - Ν. Δ. Τσελίκας<br>
+												<b>ISBN:</b> 978-960-93-1961-4<br>
+												<b>Σελίδες:</b> 832<br>
+												<b>Διαστάσεις:</b> 17x24<br>
+											<b>Διάθεση:</b> 
+											</font>
+											<ul class="ebook">
+												<li>
+													<a href="http://www.ebooks.gr/gr/c-%CE%B1%CF%80%CE%BF-%CF%84%CE%B7-%CE%B8%CE%B5%CF%89%CF%81%CE%B9%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%B7-389294.html" target="_blank">ebooks.gr<i><font color="darkorange"> (συστήνεται)</font></i>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.public.gr/product/books/greek-books/computer-science/programming/c:-apo-ti-theoria-stin-efarmogi/prod8493386pp/" target="_blank">Καταστήματα Public
+													</a>
+												</li>
+											</ul>
+										</p>
+									</div>
+								</div>
+						    </div> <!-- end of col -->
+						    <div class="col-md-6" >
+			      				<div class="container-fluid" >
+			      					<div class="row MsoNormal">
+					      				<span class="sofron_line"></span>
+					      				<p class="MsoNormal" align="justify">
+											<br>
+				                  			<font color="blue">
+				                  				Για να μάθετε περισσότερες πληροφορίες για το βιβλίο μπορείτε να στείλετε e-mail στη διεύθυνση: <a href="mailto:info@c4all.gr"><b>info AT c4all DOT gr</b></a> <br><br>
+				                  				Εναλλακτικά, μπορείτε να στείλετε τα σχόλιά σας ή τις παρατηρήσεις σας, συμπληρώνοντας τα παρακάτω πεδία.
+				                  				<form id="form1" name="form1" method = "post" action="contact.php" onsubmit="return displayResult(comments)";>
+				                  		 			Διεύθυνση e-mail (<font color="red">*</font>):
+				                  		 			<input align="right" name="mail_address" type="text" id="mail_address" size="26"><br>
+				                  		 			<br>
+				                  		 			Όνοματεπώνυμο  &nbsp;(<font color="red">*</font>) :
+				                  		 			<input align="right" name="name" type="text" id="name" size="26"><br>
+				                  		 			<br>
+				                  		 			Ιδιότητα  &nbsp;(<font color = "red">*</font>) :
+
+				                  		 			<select align="right" name="status" id="status">
+				                  		 				<option selected value = "Select">Επιλέξτε...
+				                  		 				<option value = "Professor">Καθηγητής Προγραμματισμού
+														<option value = "Student">Φοιτητής/Σπουδαστής
+														<option value = "Rookie_Programmer">Νέος Προγραμματιστής
+														<option value = "Experienced_Programmer">Έμπειρος Προγραμματιστής
+														<option value = "Other">Άλλο...	
+				                  		 			</select>
+				                  		 		<br>
+				                  		 		<br>
+				                  		 		Σχόλια/Παρατηρήσεις :
+				                  				<textarea class="text_area" id="comments" name="comments" rows=5 ></textarea>
+				                  				<br>	
+				                  		 		<input type="submit" name="Submit_comments" value="Αποστολή">
+												<!-- TRICK -->
+												<input type="text" class="noshow" id="leaveblank" name="leaveblank"><br>
+												<input type="text" class="noshow" id="dontchange" name="dontchange" value="http://">
+												 <!-- TRICK END -->
+		     									<br>
+		     									</form>
+												Σε περίπτωση που επιθυμείτε να στείλετε ανώνυμα τα σχόλιά σας, μπορείτε να <b>μην συμπληρώσετε</b> τα πεδία με τον αστερίσκο (<font color = "red">*</font>)
+				                  			</font>
+				                		</p>
+				                		<span class="sofron_line c"></span>
+					    			</div> <!-- end of row -->
+			   					</div> <!-- end of container -->
+							</div> <!-- end of col -->
+						</div> <!-- end of row -->
+	    			</div> <!-- end of container -->
+	    		</div> <!-- end of menu toggle-->
+	    	</div> <!-- /#page-content-wrapper -->
+	    </div> <!-- end of d flex -->
+	</div> <!-- end of body container -->
+
+ 	<div class="container">
+ 		<div class="sbeforefoot"></div>
+ 	</div>
+ 	
+	<!-- Footer -->
+	<div class="container">
+		<footer>
+			Copyright © 2009 -
+			<script type="text/javascript">
+				var year = new Date();
+				document.write(year.getFullYear());
+			</script>
+			- Designed by <a href="https://sofronas.github.io" target="_blank">Sofronas Konstantinos Sotirios</a> | Developed by <a href="http://cna.uop.gr/~ntsel/" target="_blank">Nikos Tselikas</a> and <a href="http://mhys.teipir.gr/academic-staff/georgios-tselikis/" target="_blank">George Tselikis</a> - All rights reserved
+		</footer>
+	</div>
+
+	<!-- Scripts -->
+	<script src="js/imageModal.js"></script>
+</body>
+</html>
